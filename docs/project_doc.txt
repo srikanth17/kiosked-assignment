@@ -1,0 +1,20 @@
+## Grunt plugins used
+https://www.npmjs.com/package/grunt-contrib-sass
+https://www.npmjs.com/package/grunt-contrib-concat
+https://www.npmjs.com/package/grunt-contrib-watch
+https://www.npmjs.com/package/grunt-insert-timestamp
+
+These are added to package.json as devDependencies.
+
+## Documentation
+The HTML page (index.html) which contains a title, a paragraph and a button is created. The build time is retrieved using the grunt-insert-timestamp package.
+
+"Click me" button opens a modal dialog box that has the counter running from 0.
+
+The title, paragraph and button text were changed to green and background colour of the button is also green, but 25% lighter. This is implemented using the inbuilt lighten Sass function.
+
+The HTML page is fully responsive to all the devices and the font-size of the content is changed depending upon the screen size. This is implemented using the media queries. Mixins are used to reuse the same code.
+
+The modal box is implemented using jQuery. The counter starts when the "Click me" button is clicked and pauses when the close button is clicked. When the “Click me” button is clicked again, the counter begins from the paused number and starts counting. The page should be refreshed to bring the counter to 0 again.
+
+The CSS & JS files are concatenated and only one CSS and one JS file is added to the HTML page.
