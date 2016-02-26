@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 	sass: {
       dist: {
         files: {
-          ['css/style.css']: ['node_modules/bootstrap-sass/assets/stylesheets/main.scss']
+          ['css/style.css']: ['main.scss']
        	}
       }
   	},
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
         tasks: ['insert_timestamp', 'concat:css']
       },
 	  sass: {
-        files: 'node_modules/bootstrap-sass/assets/stylesheets/main.scss',
+        files: 'main.scss',
         tasks: ['insert_timestamp', 'sass']
       },
       
