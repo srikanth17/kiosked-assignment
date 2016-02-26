@@ -1,0 +1,17 @@
+{
+  "name": "kiosked",
+  "version": "1.0.0",
+  "description": "The Assignment",
+  "main": "index.html",
+  "author": "",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-insert-timestamp": "^0.1.0"
+  }
+}
