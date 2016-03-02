@@ -18,3 +18,9 @@ The HTML page is fully responsive to all the devices and the font-size of the co
 The modal box is implemented using jQuery. The counter starts when the "Click me" button is clicked and pauses when the close button is clicked. When the “Click me” button is clicked again, the counter begins from the paused number and starts counting. The page should be refreshed to bring the counter to 0 again.
 
 The CSS & JS files are concatenated and only one CSS and one JS file is added to the HTML page.
+
+## Watcher
+Any changes to files in css and js folders will trigger the watch task. Changes to main.scss also triggers the watch task.
+
+## Timestamp
+Build timestamp is retrieved using grunt-insert-timestamp package. Timestamp will be updated in timestamp.js inside js folder. It uses the empty timestamp.js file from the top level directory and appends the timestamp in that file. So, we should leave the top level timestamp.js empty.

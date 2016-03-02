@@ -24,3 +24,9 @@ grunt
 This will build & package.
 
 Open index.html in a web browser to view the HTML page.
+
+## Watcher
+Any changes to files in css and js folders will trigger the watch task. Changes to main.scss also triggers the watch task.
+
+## Timestamp
+Build timestamp is retrieved using grunt-insert-timestamp package. Timestamp will be updated in timestamp.js inside js folder. It uses the empty timestamp.js file from the top level directory and appends the timestamp in that file. So, we should leave the top level timestamp.js empty.
